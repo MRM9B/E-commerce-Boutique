@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "RED FLOWERY TOP",
+        "price": "100 DH",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/p1.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "king panel bed",
+        "price": "129 DH",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/p2.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "single panel bed",
+        "price": "120 DH",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/p3.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "twin panel bed",
+        "price": "87 DH",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/p4.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "fridge",
+        "price": "188 DH",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/p5.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "dresser",
+        "price": "150 DH",
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/p6.png"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

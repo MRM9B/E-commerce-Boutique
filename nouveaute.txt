@@ -1,0 +1,27 @@
+<div class="products slider" data-aos="fade-left">
+    <p class="titres-ctr">NOUVEAUTE</p>
+    <hr class="hrr"><br><br>
+        <div class="product-items wrapper">
+            <?php
+                    $con = mysqli_connect("localhost","root","");
+                    mysqli_select_db($con,"flippedshop");
+                    $query = "SELECT `id`, `image`, `name`, `price` FROM `nouveaute`";
+	                $queryfire = mysqli_query($con, $query);
+                    $num = mysqli_num_rows($queryfire);
+                    
+                    if($num > 0){
+                        while($product = mysqli_fetch_array($queryfire)){
+                    ?>
+                        <?php 
+                         echo '<a class="center-a" href="product.php?id='.$product['id'].'">' ?>
+                            <img class="p-img" src="<?php echo $product['image'];  ?>" alt="p1" onClick="document.location.href='./product.php'">
+                            <p class="p-name"><?php echo $product['name']; ?></p>   
+                            <p class="p-price"><?php echo $product['price'];  ?></p>
+                        </a>
+
+                    <?php		
+                        }
+                    }
+                ?>
+        </div>
+    </div>
